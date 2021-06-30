@@ -71,7 +71,7 @@ Here we explain some examples of the columns you will see in the CSV files:
 * main_c: cycles for main fused convolution on Archon
  
 
-### How does simulator wokr?
+### How does simulator work?
 The simulator runs timeloop sequentially for each layer described in `sim.py`. Once all the layers have been simulated, it will extract the stats and dump them as a `.csv` file.
 
 For sparsity support, simulator uses a pruned TensorFlow model (`.h5` file) and the result of dense baseline simulations. It reduces the cycles based on the slowest PE in each processing pass (i.e. due to workload imbalance found in model) and energy based on the sparsity of layer.
