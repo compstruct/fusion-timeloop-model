@@ -1,0 +1,4405 @@
+action_counts:
+  local:
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 38400
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 38400
+      name: read
+    name: fusion_chip.pred_glb
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 11796480
+      name: process
+    name: fusion_chip.binary_decoder
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[0].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[0].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[0].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[0].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[0].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[1].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[1].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[1].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[1].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[1].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[2].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[2].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[2].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[2].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[2].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[3].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[3].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[3].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[3].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[3].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[4].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[4].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[4].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[4].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[4].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[5].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[5].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[5].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[5].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[5].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[6].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[6].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[6].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[6].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[6].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[7].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[7].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[7].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[7].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[7].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[8].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[8].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[8].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[8].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[8].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[9].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[9].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[9].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[9].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[9].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[10].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[10].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[10].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[10].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[10].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[11].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[11].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[11].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[11].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[11].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[12].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[12].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[12].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[12].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[12].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[13].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[13].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[13].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[13].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[13].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[14].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[14].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[14].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[14].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[14].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[15].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[15].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[15].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[15].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[15].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[16].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[16].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[16].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[16].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[16].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[17].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[17].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[17].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[17].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[17].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[18].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[18].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[18].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[18].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[18].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[19].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[19].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[19].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[19].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[19].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[20].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[20].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[20].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[20].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[20].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[21].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[21].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[21].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[21].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[21].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[22].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[22].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[22].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[22].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[22].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[23].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[23].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[23].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[23].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[23].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[24].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[24].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[24].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[24].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[24].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[25].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[25].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[25].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[25].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[25].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[26].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[26].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[26].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[26].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[26].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[27].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[27].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[27].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[27].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[27].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[28].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[28].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[28].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[28].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[28].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[29].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[29].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[29].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[29].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[29].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[30].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[30].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[30].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[30].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[30].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[31].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[31].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[31].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[31].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[31].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[32].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[32].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[32].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[32].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[32].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[33].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[33].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[33].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[33].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[33].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[34].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[34].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[34].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[34].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[34].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[35].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[35].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[35].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[35].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[35].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[36].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[36].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[36].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[36].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[36].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[37].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[37].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[37].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[37].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[37].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[38].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[38].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[38].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[38].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[38].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[39].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[39].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[39].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[39].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[39].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[40].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[40].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[40].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[40].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[40].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[41].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[41].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[41].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[41].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[41].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[42].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[42].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[42].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[42].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[42].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[43].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[43].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[43].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[43].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[43].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[44].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[44].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[44].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[44].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[44].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[45].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[45].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[45].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[45].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[45].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[46].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[46].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[46].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[46].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[46].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[47].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[47].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[47].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[47].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[47].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[48].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[48].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[48].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[48].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[48].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[49].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[49].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[49].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[49].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[49].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[50].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[50].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[50].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[50].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[50].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[51].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[51].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[51].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[51].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[51].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[52].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[52].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[52].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[52].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[52].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[53].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[53].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[53].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[53].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[53].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[54].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[54].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[54].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[54].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[54].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[55].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[55].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[55].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[55].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[55].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[56].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[56].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[56].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[56].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[56].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[57].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[57].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[57].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[57].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[57].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[58].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[58].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[58].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[58].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[58].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[59].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[59].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[59].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[59].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[59].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[60].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[60].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[60].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[60].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[60].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[61].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[61].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[61].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[61].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[61].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[62].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[62].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[62].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[62].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[62].mux
+  - action_counts:
+    - counts: 0
+      name: idle
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: write
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 4800
+      name: write
+    - arguments:
+        address_delta: 0
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 0
+        data_delta: 1
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 0
+      counts: 0
+      name: read
+    - arguments:
+        address_delta: 1
+        data_delta: 1
+      counts: 737281
+      name: read
+    name: fusion_chip.PE[63].prediction_buffer
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: add
+    name: fusion_chip.PE[63].adders
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[63].bit_masks_and
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 368640
+      name: process
+    name: fusion_chip.PE[63].mux_
+  - action_counts:
+    - counts: 0
+      name: idle
+    - counts: 737280
+      name: process
+    name: fusion_chip.PE[63].mux
+  version: 0.2

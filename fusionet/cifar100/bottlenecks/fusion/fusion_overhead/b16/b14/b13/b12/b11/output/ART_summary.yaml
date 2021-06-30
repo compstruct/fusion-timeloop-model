@@ -1,0 +1,31 @@
+ART_summary:
+  version: 0.3
+  table_summary:
+  - name: fusion_chip.PE[0..127].prediction_buffer
+    area: 1020.59
+    primitive_estimations: Cacti
+  - name: fusion_chip.PE[0..127].adders
+    area: 111.875
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.PE[0..127].adder_fifo
+    area: 100.759
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.PE[0..127].bit_masks_and
+    area: 50.4
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux_
+    area: 50.4
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux
+    area: 50.4
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.binary_decoder
+    area: 50.4
+    primitive_estimations: Aladdin_table
+  - name: fusion_chip.pred_glb
+    area: 164714.0
+    primitive_estimations:
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0..1]
+      estimator: Aladdin_table

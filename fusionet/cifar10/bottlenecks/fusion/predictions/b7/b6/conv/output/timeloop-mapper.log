@@ -1,0 +1,27 @@
+[  7] Utilization = 1.00 | pJ/MACC =   24.276 | L5[WIO] P4 M37 - L4[IO] Q16 P4 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  2] Utilization = 1.00 | pJ/MACC =  150.872 | L5[WIO] Q8 P16 - L4[IO] Q2 M37 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  3] Utilization = 0.45 | pJ/MACC =   55.042 | L5[WIO] P4 M37 - L4[IO] Q16 P2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 P2 - L0[O] Q1 
+[  2] Utilization = 1.00 | pJ/MACC =   86.820 | L5[WIO] P16 Q8 - L4[IO] M37 Q2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  7] Utilization = 1.00 | pJ/MACC =   23.000 | L5[WIO] M37 P4 - L4[IO] P4 Q16 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  6] Utilization = 1.00 | pJ/MACC =   54.488 | L5[WIO] P4 Q4 - L4[IO] P4 M37 Q2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q2 
+[  6] Utilization = 1.00 | pJ/MACC =   30.219 | L5[WIO] P4 Q4 - L4[IO] M37 Q2 P4 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q2 
+[  3] Utilization = 1.00 | pJ/MACC =   31.084 | L5[WIO] P16 M37 Q8 - L4[IO] Q2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  3] Utilization = 1.00 | pJ/MACC =   23.425 | L5[WIO] M37 Q8 P16 - L4[IO] Q2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q1 
+[  2] Utilization = 1.00 | pJ/MACC =   30.268 | L5[WIO] Q2 P8 - L4[IO] M37 P2 Q2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q4 
+[  2] Utilization = 1.00 | pJ/MACC =   30.217 | L5[WIO] Q2 P8 - L4[IO] M37 Q2 P2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q4 
+[  3] Utilization = 1.00 | pJ/MACC =   23.010 | L5[WIO] M37 Q2 P8 - L4[IO] Q2 P2 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q4 
+[  7] Utilization = 1.00 | pJ/MACC =   22.959 | L5[WIO] M37 Q2 P4 - L4[IO] Q2 P4 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q4 
+[  2] Utilization = 1.00 | pJ/MACC =   30.184 | L5[WIO] P2 Q8 - L4[IO] M37 P8 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q2 
+[  4] STATEMENT: 10000 invalid mappings (6667 fanout, 3333 capacity) found since the last valid mapping, terminating search.
+[  0] STATEMENT: 10000 invalid mappings (6667 fanout, 3333 capacity) found since the last valid mapping, terminating search.
+[  5] STATEMENT: 10000 invalid mappings (6667 fanout, 3333 capacity) found since the last valid mapping, terminating search.
+[  1] STATEMENT: 10000 invalid mappings (6667 fanout, 3333 capacity) found since the last valid mapping, terminating search.
+[  7] Utilization = 1.00 | pJ/MACC =   22.924 | L5[WIO] M37 Q8 - L4[IO] P16 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q2 
+[  3] Utilization = 1.00 | pJ/MACC =   22.976 | L5[WIO] M37 P2 Q8 - L4[IO] P8 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] S3 R3 - L0[O] Q2 
+[  3] Utilization = 1.00 | pJ/MACC =   22.924 | L5[WIO] M37 P4 - L4[IO] Q4 P4 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q4 
+[  7] Utilization = 1.00 | pJ/MACC =   22.576 | L5[WIO] M37 - L4[IO] Q4 P16 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q4 
+[  3] Utilization = 1.00 | pJ/MACC =   22.689 | L5[WIO] M37 - L4[IO] Q16 P16 M8X - L3[] Q1 M8Y - L2[I] Q1 - L1[W] R3 S3 - L0[O] Q1 
+[  6] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.

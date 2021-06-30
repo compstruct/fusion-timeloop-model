@@ -1,0 +1,16 @@
+[  0] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] Q1 C8X - L3[] Q1 C8Y - L2[I] C20 - L1[W] Q1 - L0[O] M10 
+[  2] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] C4 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M10 
+[  5] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] C20 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M10 
+[  3] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] C5 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] M10 
+[  1] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] C2 C8X - L3[] Q1 C8Y - L2[I] C10 - L1[W] Q1 - L0[O] M10 
+[  6] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] C2 - L4[IO] Q1 C8X - L3[] Q1 C8Y - L2[I] C10 - L1[W] Q1 - L0[O] M10 
+[  4] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] Q1 - L4[IO] C10 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M10 
+[  7] Utilization = 1.00 | pJ/MACC =  149.222 | L5[WIO] C2 - L4[IO] C2 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M10 
+[  6] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.

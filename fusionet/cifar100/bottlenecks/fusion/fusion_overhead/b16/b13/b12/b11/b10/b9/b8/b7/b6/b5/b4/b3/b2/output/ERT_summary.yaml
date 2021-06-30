@@ -1,0 +1,84 @@
+ERT_summary:
+  version: 0.3
+  table_summary:
+  - name: fusion_chip.PE[0..127].prediction_buffer
+    actions:
+    - name: read
+      average_energy: 0.458
+      max_energy: 0.906
+      min_energy: 0.009
+    - name: write
+      average_energy: 0.458
+      max_energy: 0.906
+      min_energy: 0.009
+    - name: idle
+      energy: 0.009
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].prediction_buffer
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].adders
+    actions:
+    - name: add
+      energy: 0.064
+    - name: idle
+      energy: 0.009
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].adders
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].bit_masks_and
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].bit_masks_and
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux_
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].mux_
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].mux
+      estimator: Aladdin_table
+  - name: fusion_chip.binary_decoder
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.binary_decoder
+      estimator: Aladdin_table
+  - name: fusion_chip.pred_glb
+    actions:
+    - name: write
+      average_energy: 15.138
+      max_energy: 30.226
+      min_energy: 0.05
+    - name: read
+      average_energy: 14.959
+      max_energy: 29.869
+      min_energy: 0.05
+    - name: idle
+      energy: 0.013
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table

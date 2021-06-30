@@ -1,0 +1,39 @@
+[  3] Utilization = 1.00 | pJ/MACC =  135.994 | L5[WIO] M5 - L4[IO] C20 M5 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M4 
+[  0] Utilization = 1.00 | pJ/MACC =  135.375 | L5[WIO] M5 - L4[IO] C4 M5 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M4 
+[  1] Utilization = 1.00 | pJ/MACC =  135.414 | L5[WIO] M5 - L4[IO] C5 M5 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] M4 
+[  2] Utilization = 1.00 | pJ/MACC =  135.607 | L5[WIO] M5 - L4[IO] C10 M5 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M4 
+[  7] Utilization = 1.00 | pJ/MACC =  141.802 | L5[WIO] M5 C2 - L4[IO] C10 M5 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M4 
+[  4] Utilization = 1.00 | pJ/MACC =  134.810 | L5[WIO] C2 M5 - L4[IO] M5 C8X - L3[] Q1 C8Y - L2[I] C10 - L1[W] Q1 - L0[O] M4 
+[  6] Utilization = 1.00 | pJ/MACC =  141.415 | L5[WIO] M5 C2 - L4[IO] C5 M5 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M4 
+[  3] Utilization = 1.00 | pJ/MACC =  135.819 | L5[WIO] M4 - L4[IO] C20 M25 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q1 
+[  5] Utilization = 1.00 | pJ/MACC =  141.183 | L5[WIO] M5 C2 - L4[IO] C2 M5 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M4 
+[  7] Utilization = 1.00 | pJ/MACC =  136.208 | L5[WIO] C2 M5 - L4[IO] C10 M5 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M4 
+[  2] Utilization = 1.00 | pJ/MACC =  135.432 | L5[WIO] M4 - L4[IO] C10 M25 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  1] Utilization = 1.00 | pJ/MACC =  135.239 | L5[WIO] M4 - L4[IO] C5 M25 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q1 
+[  0] Utilization = 1.00 | pJ/MACC =  135.200 | L5[WIO] M4 - L4[IO] C4 M25 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] Q1 
+[  6] Utilization = 1.00 | pJ/MACC =  135.821 | L5[WIO] C2 M5 - L4[IO] C5 M5 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M4 
+[  2] Utilization = 1.00 | pJ/MACC =  134.713 | L5[WIO] C5 - L4[IO] M20 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] M5 
+[  0] Utilization = 1.00 | pJ/MACC =  134.674 | L5[WIO] C4 - L4[IO] M20 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M5 
+[  3] Utilization = 1.00 | pJ/MACC =  134.906 | L5[WIO] C5 - L4[IO] C2 M20 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M5 
+[  5] Utilization = 1.00 | pJ/MACC =  135.589 | L5[WIO] C2 M5 - L4[IO] C2 M5 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] M4 
+[  4] Utilization = 1.00 | pJ/MACC =  134.674 | L5[WIO] C4 - L4[IO] M100 C8X - L3[] Q1 C8Y - L2[I] C5 - L1[W] Q1 - L0[O] Q1 
+[  7] Utilization = 1.00 | pJ/MACC =  135.293 | L5[WIO] C20 - L4[IO] M20 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M5 
+[  7] Utilization = 1.00 | pJ/MACC =  134.906 | L5[WIO] C5 - L4[IO] C2 M100 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  1] Utilization = 1.00 | pJ/MACC =  134.906 | L5[WIO] C10 - L4[IO] M100 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  6] Utilization = 1.00 | pJ/MACC =  135.293 | L5[WIO] C10 - L4[IO] C2 M20 C8X - L3[] Q1 C8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M5 
+[  6] Utilization = 1.00 | pJ/MACC =  134.713 | L5[WIO] C5 - L4[IO] M100 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q1 
+[  5] Utilization = 1.00 | pJ/MACC =  134.906 | L5[WIO] C10 - L4[IO] M20 C8X - L3[] Q1 C8Y - L2[I] C2 - L1[W] Q1 - L0[O] M5 
+[  6] Utilization = 1.00 | pJ/MACC =  134.558 | L5[WIO] M4 - L4[IO] M25 C8X - L3[] Q1 C8Y - L2[I] C20 - L1[W] Q1 - L0[O] Q1 
+[  2] Utilization = 1.00 | pJ/MACC =  134.558 | L5[WIO] Q1 - L4[IO] M100 C8X - L3[] Q1 C8Y - L2[I] C20 - L1[W] Q1 - L0[O] Q1 
+[  5] Utilization = 1.00 | pJ/MACC =  134.713 | L5[WIO] Q1 - L4[IO] C5 M100 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q1 
+[  1] Utilization = 1.00 | pJ/MACC =  134.713 | L5[WIO] Q1 - L4[IO] C5 M50 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] M2 
+[  3] Utilization = 1.00 | pJ/MACC =  134.713 | L5[WIO] Q1 - L4[IO] C5 M10 C8X - L3[] Q1 C8Y - L2[I] C4 - L1[W] Q1 - L0[O] M10 
+[  7] Utilization = 1.00 | pJ/MACC =  134.597 | L5[WIO] Q1 - L4[IO] C2 M50 C8X - L3[] Q1 C8Y - L2[I] C10 - L1[W] Q1 - L0[O] M2 
+[  0] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 2000 suboptimal mappings found since the last upgrade, terminating search.
