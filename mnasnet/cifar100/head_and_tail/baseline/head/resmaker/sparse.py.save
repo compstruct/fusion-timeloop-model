@@ -1,0 +1,232 @@
+import numpy as np
+import math
+import sys
+import pandas
+import csv
+
+debug_DRAM_frac = False
+PE = 256
+stats = [ [] for _ in range(8)]
+
+in_ch = []
+stride = []
+out_ch = []
+pixels = []
+DRAM_perc = []
+w_sparsity = []
+g_sparsity = []
+a_sparsity = []
+
+#similar to dense
+def get_layer_residual_stats(file, block):
+    global out_ch, pixels
+    with open(file) as f:
+        txt = f.readlines()
+    e = 0.0
+    c = 0.0
+
+    total_activations = 2 * (pixels[block]**2) * out_ch[block]
+
+    #ind_DRAM_begin = txt.index('Level 4')
+    #ind_DRAM_end = txt.index('Networks')
+    #DRAM_section = txt[ind_DRAM_begin:ind_DRAM_end]
+    DRAM_access_e = 512/4
+    GLB_access_e = 75.22/4
+    SPAD_access_e = 4.37
+    int_add_e = 0.054
+    #read acts from
+    #DRAM
+    e += DRAM_access_e * total_activations
+    #GLB
+    e += GLB_access_e * total_activations
+    #SPAD
+    e += SPAD_access_e * total_activations
+
+    e += int_add_e * total_activations/2
+    #write acts back
+    e += DRAM_access_e * total_activations/2
+    e += GLB_access_e * total_activations/2
+    e += SPAD_access_e * total_activations/2
+    e *= 0.000001
+
+    c = int(total_activations/2/PE)
+
+    return e, c
+
+
+#(similar to dense) since poolings have 1 in_ch -> this fixes the input channel energy for them
+def fix_pooling(file, layer, block):
+    global in_ch, out_ch, pixels, stride
+
+    with open(file) as f:
+       txt = f.readlines()
+
+    txt = [x.strip() for x in txt]
+    ind = txt.index('Summary Stats')
+    DRAM_perc.append(float(txt[ind+13].split()[2]) / float(txt[ind+18].split()[2]))
+
+    e = float(txt[ind+4].split()[1])
+    c = int(txt[ind+3].split()[1])
+
+    ind_DRAM_begin = txt.index('Level 4')
+    ind_DRAM_end = txt.index('Networks')
+    DRAM_section = txt[ind_DRAM_begin:ind_DRAM_end]
+    DRAM_ifmaps_e = float(DRAM_section[DRAM_section.index('Inputs:')+12].split()[3])
+
+    print(DRAM_ifmaps_e)
+    e += DRAM_ifmaps_e*1e-6*(out_ch[block]-1)
+
+    return e, c
+
+
+def fix_weight_energy(section, e, density)
+    if 'Weights:' in section:
+        w_e = 1e-6 * print(float(section[section.index('Weights:')+12].split()[3]))
+        e_adjusted = e - w_e + density * w_e
+    else:
+        e_adjusted = e
+    return e_adjusted
+
+
+def get_layer_stats(file, layer="", density=1.0, stage="forward_pass"):
+
+    DRAM_access_e = 512/4
+    GLB_access_e = 75.22/4
+    SPAD_access_e = 4.37
+    int_add_e = 0.054
+
+    with open(file) as f:
+        txt = f.readlines()
+
+    txt = [x.strip() for x in txt]
+    ind = txt.index('Summary Stats')
+    #DRAM_perc.append(float(txt[ind+13].split()[2]) / float(txt[ind+18].split()[2]))
+
+    e = float(txt[ind+4].split()[1])
+    c = int(txt[ind+3].split()[1])
+
+    if stage == "forward_pass":
+        DRAM_section = txt[txt.index('Level 4'):txt.index('Networks')]
+        e = fix_weight_energy(DRAM_section, e, density)
+
+        glb_section = txt[txt.index('Level 3'):txt.index('Level 4')]
+        e = fix_weight_energy(glb_section, e, density)
+
+        spad_section = txt[txt.index('Level 1'):txt.index('Level 2')]
+        e = fix_weight_energy(spad_section, e, density)
+
+        c = int(math.ceil(c * density))
+
+    return (e,c)
+
+
+
+
+def get_block_stats(DIR, block, density, stage):
+
+    global stats
+
+    for layer in ['pw1', 'dw', 'pw2']:
+        file = DIR + "b" +str(block-1) + "/" + layer + "/output/timeloop-mapper.stats.txt"
+        e, c = get_layer_stats(file, layer, density=density, stage=stage)
+        if layer == 'pw1':
+            stats[0].append(e)
+            stats[3].append(c)
+        elif layer == 'dw':
+            stats[1].append(e)
+            stats[4].append(c)
+        else:
+            stats[2].append(e)
+            stats[5].append(c)
+            e, c = get_layer_residual_stats(file, block)
+            stats[6].append(e)
+            stats[7].append(c)
+
+
+
+
+def make_csv(blocks, DIR, in_channels, strides, out_channels, pixs, model_desc, w_spar, g_spar, a_spar, debug_dram_frac=False, train=True):
+
+    global stats, out_ch, pixels, debug_DRAM_frac, model_description, in_ch, stride, w_sparsity, g_sparsity, a_sparsity
+
+    if train:
+        stages = ["forward_pass", "backward_pass", "weight_update"]
+    else:
+        stages = ["forward_pass"]
+
+    block_names = []
+    stage_names = []
+    total_e = []
+    total_c = []
+    out_ch = out_channels
+    pixels = pixs
+    in_ch = in_channels
+    stride = strides
+    debug_DRAM_frac = debug_dram_frac
+    model_description = model_desc
+    w_sparsity = w_spar
+    g_sparsity = g_spar
+    a_sparsity = a_spar
+
+    for stage in stages:
+
+        for block, layer in enumerate(model_description):
+
+            STAGE_DIR = DIR + stage + "/"
+
+            stage_names.append(stage)
+
+            if layer != "bottleneck":
+                block_names.append(layer)
+                if (layer == "max_pool" or layer == "ave_pool") and stage=="forward_pass":
+                    e, c = fix_pooling(STAGE_DIR + layer +"/output/timeloop-mapper.stats.txt", layer, block)
+                elif layer == "max_pool" or layer == "ave_pool":
+                    e = 0
+                    c = 0
+                else:
+                    if stage == "forward_pass":
+                        local_density = (1.0 - w_sparsity[block])
+                    else:
+                        local_density = 1.0
+
+                    e, c = get_layer_stats(STAGE_DIR + layer +"/output/timeloop-mapper.stats.txt", density = local_density, stage=stage)
+
+                for status in stats:
+                    status.append(0)
+                total_e.append(e)
+                total_c.append(c)
+
+            else: #here we are dealing with a bottleneck
+
+                block_names.append(layer + str(block-1))
+
+                if stage == "forward_pass":
+                    local_density = (1.0 - w_sparsity[block])
+                elif stage == "backward_pass"::
+                    local_density = (1.0 - g_sparsity[block])
+                elif stage == "weight_update":
+                    local_density = (1.0 - a_sparsity[block])
+
+                get_block_stats(STAGE_DIR, block, local_density, stage)
+
+                total_e.append(stats[0][block] + stats[1][block] + stats[2][block] + stats[6][block])
+                total_c.append(stats[3][block] + stats[4][block] + stats[5][block] + stats[7][block])
+
+    df = pandas.DataFrame(data={"0_stage":stage_names, "1_block": block_names, "2_PW1_e": stats[0],
+                                "3_DW_e": stats[1], "4_PW2_e": stats[2], "5_residual_e": stats[6] ,
+                                "6_block_total_e": total_e, "7_PW1_c": stats[3], "8_DW_c": stats[4],
+                                "9_PW2_c": stats[5], "10_residual_c": stats[7], "11_block_total_c": total_c})
+    if train:
+         df.to_csv("results/bl_train.csv", sep=',',index=False)
+    else:
+        df.to_csv("results/bl_inference.csv", sep=',',index=False)
+
+    if debug_DRAM_frac:
+        ave = 0.0
+        for item in DRAM_perc:
+            ave += item
+        print(ave/len(DRAM_perc))
+
+
+#just test
+#get_layer_stats("../baseline/forward_pass/b1/pw1/output/timeloop-mapper.stats.txt")

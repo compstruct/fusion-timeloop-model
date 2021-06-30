@@ -1,0 +1,21 @@
+[  2] Utilization = 1.00 | pJ/MACC =   25.843 | L5[WIO] M2 - L4[IO] M20 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] Utilization = 1.00 | pJ/MACC =   29.910 | L5[WIO] M5 C5 - L4[IO] M8 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  5] Utilization = 1.00 | pJ/MACC =   29.758 | L5[WIO] M4 C5 - L4[IO] M10 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  3] Utilization = 1.00 | pJ/MACC =   29.456 | L5[WIO] M2 C5 - L4[IO] M20 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  6] Utilization = 1.00 | pJ/MACC =   25.843 | L5[WIO] M5 - L4[IO] M8 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  4] Utilization = 1.00 | pJ/MACC =   25.843 | L5[WIO] M4 - L4[IO] M10 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  0] Utilization = 1.00 | pJ/MACC =   25.843 | L5[WIO] P2 M8 - L4[IO] M5 P4 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   30.363 | L5[WIO] P2 M8 C5 - L4[IO] M5 P4 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] Utilization = 1.00 | pJ/MACC =   29.184 | L5[WIO] M5 C5 - L4[IO] P8 M8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  5] Utilization = 1.00 | pJ/MACC =   29.012 | L5[WIO] M4 C5 - L4[IO] P8 M10 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  3] Utilization = 1.00 | pJ/MACC =   28.669 | L5[WIO] M2 C5 - L4[IO] P8 M20 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   29.700 | L5[WIO] P2 M8 C5 - L4[IO] P4 M5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   28.497 | L5[WIO] P4 C5 - L4[IO] P2 M40 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.

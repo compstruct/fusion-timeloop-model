@@ -1,0 +1,9 @@
+[  1] STATEMENT: search algorithm is done, terminating search.
+[  3] STATEMENT: search algorithm is done, terminating search.
+[  2] STATEMENT: search algorithm is done, terminating search.
+[  5] STATEMENT: search algorithm is done, terminating search.
+[  4] STATEMENT: search algorithm is done, terminating search.
+[  7] STATEMENT: search algorithm is done, terminating search.
+[  6] STATEMENT: search algorithm is done, terminating search.
+[  0] Utilization = 1.00 | pJ/MACC =   10.390 | L4[WIO] Q1 - L3[IO] C40 M40 P8X - L2[] Q1 Q8Y - L1[I] Q1 - L0[O] S3 R3 
+[  0] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.

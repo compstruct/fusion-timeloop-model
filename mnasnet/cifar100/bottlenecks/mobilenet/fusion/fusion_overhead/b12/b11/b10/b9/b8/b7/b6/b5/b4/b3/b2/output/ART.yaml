@@ -1,0 +1,19 @@
+ART:
+  version: 0.3
+  tables:
+  - name: fusion_chip.PE[0..127].prediction_buffer
+    area: 1020.59
+  - name: fusion_chip.PE[0..127].adders
+    area: 111.875
+  - name: fusion_chip.PE[0..127].adder_fifo
+    area: 100.759
+  - name: fusion_chip.PE[0..127].bit_masks_and
+    area: 50.4
+  - name: fusion_chip.PE[0..127].mux_
+    area: 50.4
+  - name: fusion_chip.PE[0..127].mux
+    area: 50.4
+  - name: fusion_chip.binary_decoder
+    area: 50.4
+  - name: fusion_chip.pred_glb
+    area: 164714.0

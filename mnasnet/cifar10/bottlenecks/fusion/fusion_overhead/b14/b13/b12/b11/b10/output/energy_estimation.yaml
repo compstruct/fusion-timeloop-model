@@ -1,0 +1,648 @@
+energy_estimation:
+  version: 0.3
+  components:
+  - name: fusion_chip.pred_glb
+    energy: 81905.28
+  - name: fusion_chip.binary_decoder
+    energy: 79626.23999999999
+  - name: fusion_chip.PE[0].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[0].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[0].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[0].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[0].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[1].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[1].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[1].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[1].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[1].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[2].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[2].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[2].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[2].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[2].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[3].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[3].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[3].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[3].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[3].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[4].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[4].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[4].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[4].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[4].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[5].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[5].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[5].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[5].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[5].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[6].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[6].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[6].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[6].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[6].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[7].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[7].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[7].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[7].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[7].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[8].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[8].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[8].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[8].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[8].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[9].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[9].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[9].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[9].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[9].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[10].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[10].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[10].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[10].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[10].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[11].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[11].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[11].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[11].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[11].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[12].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[12].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[12].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[12].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[12].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[13].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[13].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[13].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[13].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[13].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[14].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[14].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[14].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[14].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[14].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[15].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[15].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[15].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[15].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[15].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[16].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[16].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[16].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[16].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[16].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[17].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[17].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[17].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[17].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[17].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[18].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[18].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[18].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[18].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[18].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[19].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[19].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[19].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[19].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[19].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[20].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[20].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[20].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[20].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[20].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[21].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[21].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[21].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[21].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[21].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[22].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[22].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[22].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[22].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[22].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[23].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[23].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[23].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[23].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[23].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[24].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[24].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[24].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[24].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[24].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[25].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[25].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[25].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[25].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[25].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[26].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[26].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[26].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[26].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[26].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[27].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[27].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[27].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[27].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[27].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[28].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[28].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[28].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[28].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[28].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[29].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[29].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[29].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[29].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[29].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[30].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[30].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[30].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[30].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[30].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[31].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[31].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[31].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[31].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[31].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[32].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[32].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[32].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[32].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[32].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[33].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[33].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[33].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[33].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[33].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[34].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[34].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[34].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[34].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[34].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[35].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[35].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[35].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[35].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[35].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[36].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[36].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[36].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[36].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[36].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[37].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[37].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[37].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[37].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[37].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[38].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[38].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[38].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[38].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[38].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[39].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[39].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[39].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[39].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[39].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[40].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[40].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[40].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[40].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[40].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[41].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[41].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[41].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[41].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[41].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[42].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[42].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[42].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[42].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[42].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[43].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[43].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[43].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[43].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[43].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[44].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[44].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[44].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[44].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[44].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[45].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[45].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[45].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[45].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[45].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[46].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[46].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[46].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[46].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[46].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[47].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[47].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[47].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[47].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[47].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[48].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[48].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[48].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[48].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[48].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[49].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[49].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[49].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[49].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[49].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[50].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[50].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[50].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[50].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[50].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[51].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[51].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[51].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[51].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[51].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[52].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[52].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[52].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[52].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[52].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[53].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[53].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[53].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[53].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[53].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[54].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[54].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[54].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[54].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[54].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[55].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[55].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[55].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[55].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[55].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[56].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[56].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[56].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[56].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[56].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[57].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[57].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[57].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[57].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[57].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[58].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[58].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[58].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[58].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[58].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[59].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[59].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[59].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[59].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[59].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[60].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[60].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[60].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[60].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[60].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[61].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[61].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[61].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[61].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[61].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[62].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[62].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[62].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[62].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[62].mux
+    energy: 9953.279999999999
+  - name: fusion_chip.PE[63].prediction_buffer
+    energy: 151457.04
+  - name: fusion_chip.PE[63].adders
+    energy: 14929.92
+  - name: fusion_chip.PE[63].bit_masks_and
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[63].mux_
+    energy: 4976.639999999999
+  - name: fusion_chip.PE[63].mux
+    energy: 9953.279999999999
+  Total: 12084316.79999998
