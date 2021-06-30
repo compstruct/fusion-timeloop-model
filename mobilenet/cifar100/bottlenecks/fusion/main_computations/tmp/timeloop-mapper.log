@@ -1,0 +1,12 @@
+[  4] STATEMENT: search algorithm is done, terminating search.
+[  6] STATEMENT: search algorithm is done, terminating search.
+[  5] STATEMENT: search algorithm is done, terminating search.
+[  7] STATEMENT: search algorithm is done, terminating search.
+[  0] Utilization = 0.86 | pJ/MACC =   10.593 | L4[WIO] Q1 - L3[IO] P8 C16 M24 Q2X P4X - L2[] Q1 Q16Y - L1[I] Q1 - L0[O] S3 R3 
+[  3] Utilization = 0.86 | pJ/MACC =   10.593 | L4[WIO] P8 - L3[IO] C16 M24 Q2X P4X - L2[] Q1 Q16Y - L1[I] Q1 - L0[O] S3 R3 
+[  1] Utilization = 0.86 | pJ/MACC =   10.593 | L4[WIO] P2 - L3[IO] P4 C16 M24 Q2X P4X - L2[] Q1 Q16Y - L1[I] Q1 - L0[O] S3 R3 
+[  2] Utilization = 0.86 | pJ/MACC =   10.593 | L4[WIO] P4 - L3[IO] P2 C16 M24 Q2X P4X - L2[] Q1 Q16Y - L1[I] Q1 - L0[O] S3 R3 
+[  3] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 400 suboptimal mappings found since the last upgrade, terminating search.

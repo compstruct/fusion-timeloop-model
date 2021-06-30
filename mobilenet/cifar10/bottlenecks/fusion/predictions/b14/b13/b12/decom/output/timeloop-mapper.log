@@ -1,0 +1,24 @@
+[  3] Utilization = 1.00 | pJ/MACC =   30.644 | L5[WIO] M6 C5 - L4[IO] M6 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   30.304 | L5[WIO] M4 C5 - L4[IO] M9 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  0] Utilization = 1.00 | pJ/MACC =   26.010 | L5[WIO] M4 - L4[IO] M9 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] Utilization = 1.00 | pJ/MACC =   30.135 | L5[WIO] M3 C5 - L4[IO] M12 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  5] Utilization = 1.00 | pJ/MACC =   29.965 | L5[WIO] M2 C5 - L4[IO] M18 P8 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  2] Utilization = 1.00 | pJ/MACC =   26.010 | L5[WIO] M6 - L4[IO] M6 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  6] Utilization = 1.00 | pJ/MACC =   26.010 | L5[WIO] M3 - L4[IO] M12 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  4] Utilization = 1.00 | pJ/MACC =   26.010 | L5[WIO] M2 - L4[IO] M18 P8 C5 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   29.508 | L5[WIO] M4 C5 - L4[IO] P8 M9 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  3] Utilization = 1.00 | pJ/MACC =   29.897 | L5[WIO] M6 C5 - L4[IO] P8 M6 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  5] Utilization = 1.00 | pJ/MACC =   29.118 | L5[WIO] M2 C5 - L4[IO] P8 M18 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] Utilization = 1.00 | pJ/MACC =   29.313 | L5[WIO] M3 C5 - L4[IO] P8 M12 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  3] Utilization = 1.00 | pJ/MACC =   29.118 | L5[WIO] M2 P8 C5 - L4[IO] M18 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  1] Utilization = 1.00 | pJ/MACC =   28.923 | L5[WIO] P8 C5 - L4[IO] M36 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  7] Utilization = 1.00 | pJ/MACC =   28.923 | L5[WIO] P2 C5 - L4[IO] P4 M36 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  3] Utilization = 1.00 | pJ/MACC =   28.923 | L5[WIO] C5 - L4[IO] P8 M36 Q8X - L3[] Q1 M8Y - L2[I] C8 - L1[W] Q1 - L0[O] M3 
+[  5] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  4] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.

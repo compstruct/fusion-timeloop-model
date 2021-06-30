@@ -1,0 +1,95 @@
+ERT_summary:
+  version: 0.3
+  table_summary:
+  - name: fusion_chip.PE[0..127].prediction_buffer
+    actions:
+    - name: read
+      average_energy: 0.273
+      max_energy: 0.545
+      min_energy: 0.0
+    - name: write
+      average_energy: 0.359
+      max_energy: 0.718
+      min_energy: 0.0
+    - name: idle
+      energy: 0.0
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].prediction_buffer
+      estimator: Cacti
+  - name: fusion_chip.PE[0..127].adders
+    actions:
+    - name: add
+      energy: 0.054
+    - name: idle
+      energy: 0.007
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].adders
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].adder_fifo
+    actions:
+    - name: push
+      energy: 0.146
+    - name: pop
+      energy: 0.146
+    - name: idle
+      energy: 0.006
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].adder_fifo
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].bit_masks_and
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].bit_masks_and
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux_
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].mux_
+      estimator: Aladdin_table
+  - name: fusion_chip.PE[0..127].mux
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.PE[0..127].mux
+      estimator: Aladdin_table
+  - name: fusion_chip.binary_decoder
+    actions:
+    - name: process
+      energy: 0.018
+    - name: idle
+      energy: 0.003
+    primitive_estimation(s):
+    - name: fusion_chip.binary_decoder
+      estimator: Aladdin_table
+  - name: fusion_chip.pred_glb
+    actions:
+    - name: write
+      average_energy: 15.138
+      max_energy: 30.226
+      min_energy: 0.05
+    - name: read
+      average_energy: 14.959
+      max_energy: 29.869
+      min_energy: 0.05
+    - name: idle
+      energy: 0.013
+    primitive_estimation(s):
+    - name: storage
+      estimator: Cacti
+    - name: address_generators[0]
+      estimator: Aladdin_table
+    - name: address_generators[1]
+      estimator: Aladdin_table
+    - name: address_generators[0..1]
+      estimator: Aladdin_table
