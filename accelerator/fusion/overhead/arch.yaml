@@ -1,0 +1,57 @@
+architecture:
+  # ============================================================
+  # Architecture Description
+  # ============================================================
+  version: 0.3
+  subtree:
+    - name: fusion_chip
+      attributes:
+        technology: 45nm
+      local:
+        - name: pred_glb 
+          class: smartbuffer_SRAM
+          attributes:
+            memory_depth: 1094 #bits -> heigth
+            memory_width: 64 #bits
+            n_banks: 32
+            block-size: 4
+            word-bits: 16
+            read_bandwidth: 16
+            write_bandwidth: 16
+        - name: binary_decoder   #16 x 16 AND gates for binary decoder
+          class: bitwise
+          attributes:
+            datawidth: 1
+            num: 3
+      subtree:
+        - name: PE[0..127]
+          local:
+            - name: prediction_buffer
+              class: SRAM
+              attributes:
+                depth: 128
+                width: 16
+            - name: adders
+              class: intadder
+              attributes:
+                datawidth: 20
+            - name: adder_fifo
+              class: FIFO
+              attributes:
+                datawidth: 16
+                depth: 5
+            - name: bit_masks_and       #16 for Anding ReLU and weight index
+              class: bitwise
+              attributes:
+                datawidth: 8
+                num: 2
+            - name: mux_ #16
+              class: bitwise
+              attributes:
+                datawidth: 8
+                num: 1
+            - name: mux #16 x2 buffer for 2-gated mux
+              class: bitwise
+              attributes:
+                datawidth: 16
+                num: 1

@@ -1,0 +1,93 @@
+architecture:
+  # ============================================================
+  # Architecture Description
+  # ============================================================
+  version: 0.3
+  subtree:
+    - name: system
+      local:
+        - name: DRAM
+          class: DRAM
+          attributes:
+            type: LPDDR4
+            width: 64
+            block-size: 4
+            word-bits: 16
+      subtree:
+        - name: eyeriss
+          attributes:
+            technology: 45nm
+          local:
+            - name: shared_glb #(16384*64)/8/1024 = 128KB
+              class: smartbuffer_SRAM 
+              attributes:
+                memory_width: 64
+                n_banks: 27
+                memory_depth: 13824
+                block-size: 4
+                word-bits: 16
+                read_bandwidth: 32
+                write_bandwidth: 32
+            - name: DummyBuffer[0..7] # for better mapping
+              class: regfile
+              attributes:
+                depth: 16
+                width: 16
+                word-bits: 16
+                block-size: 1
+                meshX: 8
+
+            #- name: weights_glb[0..16]
+            #  class: smartbuffer_SRAM
+            #  attributes:
+            #    memory_width: 4
+            #    memory_depth: 1024
+            #    n_banks: 2
+
+          subtree:
+          - name: PE[0..71]
+            local:
+              - name: ifmap_spad
+                class: smartbuffer_RF
+                attributes:
+                  memory_depth: 16
+                  memory_width: 16
+                  block-size: 1
+                  word-bits: 16
+                  meshX: 8
+                  read_bandwidth: 2
+                  write_bandwidth: 2
+              - name: weights_spad
+                class: smartbuffer_SRAM
+                attributes:
+                  memory_depth: 224
+                  memory_width: 16
+                  block-size: 1
+                  word-bits: 16
+                  meshX: 8
+                  read_bandwidth: 2
+                  write_bandwidth: 2
+              - name: psum_spad
+                class: smartbuffer_RF
+                attributes:
+                  memory_depth: 24
+                  memory_width: 16
+                  update_fifo_depth: 2
+                  block-size: 1
+                  word-bits: 16
+                  meshX: 8
+                  read_bandwidth: 2
+                  write_bandwidth: 2
+              - name: mac
+                class: intmac
+                attributes:
+                  datawidth: 16
+                  meshX : 8
+              #- name: decoding
+              #  class: bitwise
+              #  attributes:
+              #    datawidth: 16
+              #    num: 2
+              #    meshX: 8
+
+

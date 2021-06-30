@@ -1,0 +1,13 @@
+shared_glb,979377.00
+binary_decoder,8064.00
+pred_glb,164714.00
+mac,1239.50
+ifmap_spad,379.68
+psum_spad,624.68
+prediction_buffer,1020.59
+adders,559.38
+adder_fifo,503.80
+bit_masks_and,2016.00
+mux_,252.00
+mux,1008.00
+total,1474072.68
