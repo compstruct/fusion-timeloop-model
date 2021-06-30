@@ -13,7 +13,7 @@ When FusioNet is executed on the proposed accelerator, it yields up to 5.8x fast
 
 ## Requirements
 
-The simulator is based on Timeloop. Please install Timeloop and Accelergy using the guidelines provided on their website.
+The simulator is based on [Timeloop](https://github.com/NVlabs/timeloop). Please install [Timeloop](https://github.com/NVlabs/timeloop) and [Accelergy](https://github.com/Accelergy-Project/accelergy) using the guidelines provided on their pages.
 
 You also need TensorFlow version 2.3.0 installed. Lastly, you will need Pandas and Numpy.
 
