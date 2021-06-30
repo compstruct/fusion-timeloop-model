@@ -1,0 +1,56 @@
+architecture_constraints:
+  targets:
+  - bypass:
+    - Inputs
+    - Weights
+    keep:
+    - Outputs
+    target: psum_spad
+    type: bypass
+  - bypass:
+    - Weights
+    - Outputs
+    keep:
+    - Inputs
+    target: ifmap_spad
+    type: bypass
+  - bypass:
+    - Weights
+    keep:
+    - Inputs
+    - Outputs
+    target: shared_glb
+    type: bypass
+  - bypass:
+    - Inputs
+    - Outputs
+    - Weights
+    target: DummyBuffer
+    type: bypass
+  - factors: N=1 R=1 S=1 C=1 M=1
+    permutation: CMQPNRS
+    target: DRAM
+    type: temporal
+  - factors: N=1 R=1 S=1 Q=1 C=8 M=18
+    permutation: MCPQRSN
+    target: shared_glb
+    type: temporal
+  - factors: N=1 R=1 S=1 C=1 M=1 P=1 Q=8
+    permutation: CQPNRSM
+    target: DummyBuffer
+    type: spatial
+  - factors: N=1 R=1 S=1 C=1 M=1 P=8 Q=1
+    permutation: PQNRSCM
+    target: shared_glb
+    type: spatial
+  - factors: N=1 P=1 Q=1 C=1 M=1 R=3 S=3
+    permutation: NPQCM
+    target: psum_spad
+    type: temporal
+  - factors: N=1 P=1 Q=1 C=1 M=1 R=1 S=1
+    permutation: NPQMCRS
+    target: ifmap_spad
+    type: temporal
+  - factors: N=1 M=1 C=1 P=1 Q=1 R=1 S=1
+    target: DummyBuffer
+    type: temporal

@@ -1,0 +1,80 @@
+[  2] Utilization = 0.12 | pJ/MACC =  315.266 | L5[WIO] C8 P2 Q2 - L4[IO] Q8 M429 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  2] Utilization = 0.12 | pJ/MACC =  310.030 | L5[WIO] P2 C8 Q2 - L4[IO] M429 Q8 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  5] Utilization = 0.25 | pJ/MACC =   56.007 | L5[WIO] Q2 P2 - L4[IO] C2 M429 Q8 C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] M2 
+[  4] Utilization = 0.25 | pJ/MACC =   46.459 | L5[WIO] Q2 P2 - L4[IO] Q8 C2 M429 C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C2 
+[  7] Utilization = 0.12 | pJ/MACC =   55.890 | L5[WIO] Q2 P2 - L4[IO] Q8 C4 M429 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C2 
+[  3] Utilization = 0.12 | pJ/MACC =   80.779 | L5[WIO] C2 P2 Q2 - L4[IO] Q8 M429 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C4 
+[  1] Utilization = 0.25 | pJ/MACC =   50.743 | L5[WIO] P2 Q2 - L4[IO] M429 C4 Q8 C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  3] Utilization = 0.12 | pJ/MACC =   46.429 | L5[WIO] P2 Q2 C2 - L4[IO] Q8 M429 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C4 
+[  2] Utilization = 0.12 | pJ/MACC =   69.577 | L5[WIO] Q2 P2 C8 - L4[IO] M429 Q8 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  4] Utilization = 0.25 | pJ/MACC =   41.223 | L5[WIO] Q2 P2 - L4[IO] C2 M429 Q8 C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C2 
+[  7] Utilization = 0.12 | pJ/MACC =   50.655 | L5[WIO] Q2 P2 - L4[IO] C4 M429 Q8 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C2 
+[  6] Utilization = 0.50 | pJ/MACC =   51.247 | L5[WIO] Q2 P2 - L4[IO] M429 Q8 C2 C4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  0] Utilization = 0.25 | pJ/MACC =  167.882 | L5[WIO] C4 M11 - L4[IO] C2 M26 Q2 P2 Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 M3 
+[  5] Utilization = 0.25 | pJ/MACC =   46.459 | L5[WIO] P2 Q2 - L4[IO] C2 Q8 M429 C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] M2 
+[  6] Utilization = 0.50 | pJ/MACC =   41.282 | L5[WIO] Q2 P2 - L4[IO] C2 M429 Q8 C4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  3] Utilization = 0.12 | pJ/MACC =   41.193 | L5[WIO] P2 Q2 C2 - L4[IO] M429 Q8 - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 C4 
+[  2] Utilization = 0.70 | pJ/MACC =   56.423 | L5[WIO] M78 C4 - L4[IO] Q4 M11 P2X Q2X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 
+[  0] Utilization = 0.25 | pJ/MACC =   67.098 | L5[WIO] M11 C4 - L4[IO] P2 C2 M26 Q2 Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 M3 
+[  0] Utilization = 0.25 | pJ/MACC =   62.074 | L5[WIO] M11 C4 - L4[IO] P2 Q2 C2 M26 Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 M3 
+[  3] Utilization = 0.41 | pJ/MACC =   75.257 | L5[WIO] M78 C4 - L4[IO] Q4 C2 M11 P2X Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 
+[  0] Utilization = 0.25 | pJ/MACC =   49.287 | L5[WIO] M11 C4 - L4[IO] M26 Q2 P2 C2 Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 M3 
+[  1] Utilization = 0.50 | pJ/MACC =   56.335 | L5[WIO] M78 C4 - L4[IO] Q4 M11 P2X Q2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q2 
+[  5] Utilization = 0.50 | pJ/MACC =   48.818 | L5[WIO] M286 - L4[IO] P2 Q4 M3 C2 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C4 
+[  4] Utilization = 0.41 | pJ/MACC =   69.171 | L5[WIO] M286 - L4[IO] Q4 P2 C8 M3 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q1 
+[  7] Utilization = 0.50 | pJ/MACC =   48.818 | L5[WIO] M286 - L4[IO] P2 M3 Q4 C2 Q4X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q1 
+[  5] Utilization = 0.50 | pJ/MACC =   40.787 | L5[WIO] M286 - L4[IO] Q4 P2 C2 M3 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C4 
+[  7] Utilization = 0.50 | pJ/MACC =   40.787 | L5[WIO] M286 - L4[IO] C2 P2 Q4 M3 Q4X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q1 
+[  4] Utilization = 0.50 | pJ/MACC =   48.818 | L5[WIO] M286 - L4[IO] M3 Q4 P2 C8 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q1 
+[  1] Utilization = 1.00 | pJ/MACC =   40.817 | L5[WIO] M286 - L4[IO] Q4 P2 C2 M3 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  6] Utilization = 0.50 | pJ/MACC =   40.787 | L5[WIO] M286 - L4[IO] C2 P2 Q4 M3 Q4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] C2 
+[  3] Utilization = 0.50 | pJ/MACC =   50.248 | L5[WIO] M286 - L4[IO] Q4 P2 C4 M3 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C2 
+[  3] Utilization = 0.50 | pJ/MACC =   48.818 | L5[WIO] M286 - L4[IO] M3 P2 Q4 C4 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C2 
+[  5] Utilization = 1.00 | pJ/MACC =   26.294 | L5[WIO] M13 - L4[IO] Q2 M66 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 P2 C4 
+[  0] Utilization = 0.50 | pJ/MACC =  146.211 | L5[WIO] C4 M78 - L4[IO] Q4 M11 P2X Q2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 C2 
+[  0] Utilization = 0.50 | pJ/MACC =   48.818 | L5[WIO] M286 - L4[IO] P2 Q4 M3 C2 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C2 
+[  0] Utilization = 1.00 | pJ/MACC =   40.817 | L5[WIO] M286 - L4[IO] C2 P2 Q4 M3 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C2 
+[  4] Utilization = 0.92 | pJ/MACC =   61.923 | L5[WIO] Q2 M143 P2 - L4[IO] Q2 C2 M6 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  4] Utilization = 1.00 | pJ/MACC =   37.627 | L5[WIO] P2 Q2 M143 - L4[IO] C2 Q2 M6 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q1 
+[  6] Utilization = 0.86 | pJ/MACC =   84.820 | L5[WIO] P2 M286 Q4 - L4[IO] M3 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C4 
+[  6] Utilization = 1.00 | pJ/MACC =   29.698 | L5[WIO] P2 Q4 M286 - L4[IO] M3 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] C4 
+[  2] Utilization = 1.00 | pJ/MACC =   34.652 | L5[WIO] M2 Q4 P2 C2 - L4[IO] M39 Q4X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M11 C2 
+[  7] Utilization = 1.00 | pJ/MACC =   29.698 | L5[WIO] Q4 P2 M286 - L4[IO] M3 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] C2 
+[  3] Utilization = 0.50 | pJ/MACC =   31.025 | L5[WIO] M13 - L4[IO] C2 Q2 M66 Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 P2 C4 
+[  7] Utilization = 1.00 | pJ/MACC =   26.294 | L5[WIO] M13 - L4[IO] Q2 M66 Q4X C2X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q2 P2 
+[  3] Utilization = 0.50 | pJ/MACC =   30.217 | L5[WIO] M6 Q8 - L4[IO] M143 P2X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q2 C2 
+[  3] Utilization = 0.50 | pJ/MACC =   29.250 | L5[WIO] Q8 M6 - L4[IO] M143 P2X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q2 C2 
+[  3] Utilization = 1.00 | pJ/MACC =   34.652 | L5[WIO] Q4 P2 M2 C2 - L4[IO] M39 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] M11 
+[  4] Utilization = 1.00 | pJ/MACC =   35.407 | L5[WIO] P2 M429 - L4[IO] Q16 C8X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M2 
+[  1] Utilization = 1.00 | pJ/MACC =   28.700 | L5[WIO] M66 - L4[IO] P2 Q2 M13 Q4X C2X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q2 
+[  3] Utilization = 1.00 | pJ/MACC =   32.069 | L5[WIO] Q2 M11 - L4[IO] C2 P2 M39 Q2X C4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 M2 
+[  4] Utilization = 1.00 | pJ/MACC =   28.960 | L5[WIO] M11 Q2 - L4[IO] P2 M39 Q2X C4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q4 M2 
+[  4] Utilization = 1.00 | pJ/MACC =   27.249 | L5[WIO] Q2 M11 - L4[IO] P2 M39 Q2X C4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q4 M2 
+[  0] Utilization = 1.00 | pJ/MACC =   28.700 | L5[WIO] M66 - L4[IO] P2 Q2 M13 Q4X C2X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q2 C2 
+[  5] Utilization = 1.00 | pJ/MACC =   26.250 | L5[WIO] Q2 M11 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q2 M3 C4 
+[  2] Utilization = 1.00 | pJ/MACC =   27.892 | L5[WIO] M2 P2 Q2 - L4[IO] M429 Q8X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] C2 
+[  2] Utilization = 1.00 | pJ/MACC =   27.698 | L5[WIO] P2 Q2 M2 - L4[IO] M429 Q8X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] C2 
+[  1] Utilization = 1.00 | pJ/MACC =   27.892 | L5[WIO] M2 P2 Q2 - L4[IO] M429 Q8X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] C4 
+[  1] Utilization = 1.00 | pJ/MACC =   27.698 | L5[WIO] P2 Q2 M2 - L4[IO] M429 Q8X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] C4 
+[  6] Utilization = 1.00 | pJ/MACC =   28.184 | L5[WIO] M11 Q2 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q2 M3 C2 
+[  0] Utilization = 1.00 | pJ/MACC =   27.892 | L5[WIO] M2 Q2 P2 - L4[IO] M429 Q8X - L3[] Q1 P8Y - L2[I] C8 - L1[W] Q1 - L0[O] Q1 
+[  3] Utilization = 1.00 | pJ/MACC =   32.019 | L5[WIO] M13 Q4 - L4[IO] Q2 M22 P2X Q2X C2X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] M3 C4 
+[  4] Utilization = 1.00 | pJ/MACC =   26.250 | L5[WIO] Q2 M11 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C8 - L1[W] Q1 - L0[O] Q2 M3 
+[  2] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M11 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C4 - L1[W] Q1 - L0[O] Q4 M3 C2 
+[  1] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M11 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q4 M3 C4 
+[  7] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M13 - L4[IO] M66 P2X Q4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q4 C8 
+[  0] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M11 - L4[IO] M26 P2X Q4X - L3[] Q1 P8Y - L2[I] C8 - L1[W] Q1 - L0[O] Q4 M3 
+[  6] Utilization = 1.00 | pJ/MACC =   27.026 | L5[WIO] Q4 M143 - L4[IO] M2 Q2X C4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 P2 M3 C2 
+[  3] Utilization = 1.00 | pJ/MACC =   31.717 | L5[WIO] M286 - L4[IO] Q4 P2 Q2X C4X - L3[] Q1 P8Y - L2[I] Q1 - L1[W] Q1 - L0[O] Q2 M3 C2 
+[  5] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M11 - L4[IO] M39 P2X Q4X - L3[] Q1 P8Y - L2[I] C8 - L1[W] Q1 - L0[O] Q4 M2 
+[  6] Utilization = 1.00 | pJ/MACC =   25.526 | L5[WIO] M11 - L4[IO] M39 P2X Q4X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] Q4 M2 C4 
+[  4] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] Utilization = 1.00 | pJ/MACC =   27.698 | L5[WIO] Q2 P2 M143 - L4[IO] M3 Q8X - L3[] Q1 P8Y - L2[I] C8 - L1[W] Q1 - L0[O] M2 
+[  3] Utilization = 1.00 | pJ/MACC =   26.250 | L5[WIO] Q2 M11 - L4[IO] M39 Q8X - L3[] Q1 P8Y - L2[I] C2 - L1[W] Q1 - L0[O] P2 M2 C4 
+[  6] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 1000 suboptimal mappings found since the last upgrade, terminating search.

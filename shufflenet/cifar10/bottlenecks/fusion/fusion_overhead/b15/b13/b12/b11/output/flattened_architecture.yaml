@@ -1,0 +1,60 @@
+architecture:
+  version: 0.3
+  local:
+  - name: fusion_chip.PE[0..127].prediction_buffer
+    class: regfile
+    attributes:
+      depth: 120
+      latency: 5ns
+      n_ports: 2
+      technology: 45nm
+      width: 16
+  - name: fusion_chip.PE[0..127].adders
+    class: intadder
+    attributes:
+      datawidth: 24
+      latency: 5ns
+      num_pipeline_stages: 1
+      technology: 45nm
+  - name: fusion_chip.PE[0..127].bit_masks_and
+    class: bitwise
+    attributes:
+      datawidth: 8
+      latency: 5ns
+      num: 2
+      technology: 45nm
+  - name: fusion_chip.PE[0..127].mux_
+    class: bitwise
+    attributes:
+      datawidth: 8
+      latency: 5ns
+      num: 1
+      technology: 45nm
+  - name: fusion_chip.PE[0..127].mux
+    class: bitwise
+    attributes:
+      datawidth: 16
+      latency: 5ns
+      num: 1
+      technology: 45nm
+  - name: fusion_chip.pred_glb
+    class: smartbuffer_SRAM
+    attributes:
+      block-size: 4
+      memory_depth: 1094
+      memory_width: 64
+      n_banks: 32
+      n_buffets: 1
+      n_rd_ports: 0
+      n_rdwr_ports: 2
+      read_bandwidth: 16
+      technology: 45nm
+      word-bits: 16
+      write_bandwidth: 16
+  - name: fusion_chip.binary_decoder
+    class: bitwise
+    attributes:
+      datawidth: 1
+      latency: 5ns
+      num: 3
+      technology: 45nm
